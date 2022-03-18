@@ -6,7 +6,7 @@ describe 'A tile set' do
 
     it 'returns an array of 9 tiles by default' do
       tile_set = TileSet.new
-      # expect(tile_set).to include(Tile)
+      #expect(tile_set.generate).to be_kind_of array
     end
 
     it 'returns an array of tiles of a specified length' do
